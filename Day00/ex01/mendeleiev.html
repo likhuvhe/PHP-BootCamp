@@ -1,0 +1,688 @@
+    <html>
+    <head>
+        <title>Dimitri Mendeleïev</title>
+        <style>
+            p{
+                margin: 0;
+                margin-bottom: 0;
+            }
+            td{
+                width: 60px;
+            }
+            #weight{
+                margin-top: 0;
+                text-align: right;
+                margin-right: 2%;
+                font-size: x-small;      
+            }
+            #atom{
+                font-weight: bold;
+                text-align: center;
+                font-size:  large
+            }
+            #num{
+                font-size: small;
+                margin-bottom: 0;
+                margin-left: 2%;
+            }
+            #actinide{text-align: center;}
+            #lanthanide{text-align: center;}
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center">Periodic Table</h1>
+        <table>
+            <tr>
+                <td>
+                    <div style="background-color: greenyellow">
+                        <p id="weight">1.008</p>
+                        <p id="atom">H</p>
+                        <p id="num">1</p>
+                    </div>
+                </td>
+                <td colspan="16"></td>
+                <td>
+                        <div style="background-color: rgb(6, 82, 129)">
+                            <p id="weight">4.003</p>
+                            <p id="atom">He</p>
+                            <p id="num">2</p>
+                        </div>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <div style="background-color: palevioletred">
+                       <p id="weight">6.941</p>
+                        <p id="atom">Li</p>
+                         <p id="num">3</p>
+                    </div>
+                </td>
+                <td>
+                    <div style="background-color: palegoldenrod">
+                        <p id="weight">9.012</p>
+                        <p id="atom">Be</p>
+                        <p id="num">4</p>
+                    </div>
+                </td>
+                <td colspan="10"></td>
+                <td>
+                        <div style="background-color: green">
+                            <p id="weight">10.811</p>
+                            <p id="atom">B</p>
+                            <p id="num">5</p>
+                        </div>
+                </td>
+                <td>
+                    <div style="background-color: skyblue">
+                        <p id="weight">12.011</p>
+                        <p id="atom">C</p>
+                        <p id="num">6</p>
+                    </div>
+                </td>
+                <td>
+                    <div style="background-color: skyblue">
+                        <p id="weight">14.007</p>
+                        <p id="atom">N</p>
+                        <p id="num">7</p>
+                    </div>
+                </td>
+                <td>
+                    <div style="background-color: skyblue">
+                        <p id="weight">15.999</p>
+                        <p id="atom">O</p>
+                        <p id="num">8</p>
+                    </div>
+                </td>
+                <td>
+                    <div style="background-color: red">
+                        <p id="weight">18.998</p>
+                        <p id="atom">F</p>
+                        <p id="num">9</p>
+                    </div>
+                </td> 
+                <td>
+                    <div style="background-color: rgb(6, 82, 129)">
+                        <p id="weight">20.180</p>
+                        <p id="atom">Ne</p>
+                        <p id="num">10</p>
+                    </div>
+                </td>           
+            </tr>
+            <tr>
+                    <td>
+                        <div style="background-color: palevioletred">
+                            <p id="weight">22.99</p>
+                            <p id="atom">Na</p>
+                            <p id="num">11</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="background-color: palegoldenrod">
+                            <p id="weight">24.305</p>
+                            <p id="atom">Mg</p>
+                            <p id="num">12</p>
+                        </div>
+                    </td>
+                    <td colspan="10"></td>
+                    <td>
+                            <div style="background-color: grey">
+                                <p id="weight">26.982</p>
+                                <p id="atom">Al</p>
+                                <p id="num">13</p>
+                            </div>
+                    </td>
+                    <td>
+                        <div style="background-color: green">
+                            <p id="weight">28.088</p>
+                            <p id="atom">Si</p>
+                            <p id="num">14</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="background-color: skyblue">
+                            <p id="weight">30.974</p>
+                            <p id="atom">P</p>
+                            <p id="num">15</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="background-color: skyblue">
+                            <p id="weight">32.066</p>
+                            <p id="atom">S</p>
+                            <p id="num">16</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="background-color: red">
+                            <p id="weight">35.453</p>
+                            <p id="atom">Cl</p>
+                            <p id="num">17</p>
+                        </div>
+                    </td> 
+                    <td>
+                        <div style="background-color: rgb(6, 82, 129)">
+                             <p id="weight">29.948</p>
+                            <p id="atom">Ar</p>
+                           <p id="num">18</p>
+                        </div>
+                    </td>           
+                </tr>
+                <tr>
+                    <td>
+                        <div style="background-color: palevioletred">
+                            <p id="weight">39.093</p>
+                            <p id="atom">K</p>
+                            <p id="num">19</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="background-color: palegoldenrod">
+                            <p id="weight">40.078</p>
+                            <p id="atom">Ca</p>
+                            <p id="num">20</p>
+                        </div>
+                    </td>  
+                    <td>
+                            <div style="background-color: fuchsia">
+                                <p id="weight">44.958</p>
+                                <p id="atom">Sc</p>
+                                <p id="num">21</p>
+                            </div>
+                    </td>  
+                    <td>
+                            <div style="background-color: fuchsia">
+                                <p id="weight">47.867</p>
+                                <p id="atom">Ti</p>
+                                <p id="num">22</p>
+                            </div>
+                    </td>   
+                    <td>
+                            <div style="background-color: fuchsia">
+                                 <p id="weight">50.942</p>
+                                <p id="atom">V</p>
+                               <p id="num">23</p>
+                            </div>
+                    </td>   
+                    <td>
+                            <div style="background-color: fuchsia">
+                                <p id="weight">51.996</p>
+                                <p id="atom">Cr</p>
+                                <p id="num">24</p>
+                            </div>
+                    </td>   
+                    <td>
+                            <div style="background-color: fuchsia">
+                                <p id="weight">54.938</p>
+                                <p id="atom">Mn</p>
+                                <p id="num">25</p>
+                            </div>
+                    </td>   
+                    <td>
+                            <div style="background-color: fuchsia">
+                                <p id="weight">55.845</p>
+                                <p id="atom">Fe</p>
+                                <p id="num">26</p>
+                            </div>
+                    </td>
+                    <td>
+                            <div style="background-color: fuchsia">
+                                <p id="weight">58.933</p>
+                                <p id="atom">Co</p>
+                                <p id="num">27</p>
+                            </div>
+                    </td> 
+                    <td>
+                            <div style="background-color: fuchsia">
+                                <p id="weight">58.693</p>
+                                <p id="atom">Ni</p>
+                                <p id="num">28</p>
+                            </div>
+                    </td> 
+                    <td>
+                            <div style="background-color: fuchsia">
+                                <p id="weight">63.546</p>
+                                <p id="atom">Cu</p>
+                                <p id="num">29</p>
+                            </div>
+                    </td> 
+                    <td>
+                            <div style="background-color: fuchsia">
+                                <p id="weight">65.38</p>
+                                <p id="atom">Zn</p>
+                                <p id="num">30</p>
+                            </div>
+                    </td>
+                    <td>
+                            <div style="background-color: grey">
+                                <p id="weight">69.723</p>
+                                <p id="atom">Ga</p>
+                                <p id="num">31</p>
+                            </div>
+                    </td>
+                    <td>
+                        <div style="background-color: green">
+                            <p id="weight">72.631</p>
+                            <p id="atom">Ge</p>
+                            <p id="num">32</p>
+                        </div>
+                    </td>
+                    <td>
+                            <div style="background-color: green">
+                                <p id="weight">74.922</p>
+                                <p id="atom">As</p>
+                                <p id="num">33</p>
+                                
+                            </div>
+                    </td>
+                    <td>
+                            <div style="background-color: skyblue">
+                                <p id="weight">78.971</p>
+                                <p id="atom">Se</p>
+                                <p id="num">34</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div style="background-color: red">
+                                <p id="weight">79.904</p>
+                                <p id="atom">Br</p>
+                                <p id="num">35</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div style="background-color: rgb(6, 82, 129)">
+                                <p id="weight">83.789</p>
+                                <p id="atom">Kr</p>
+                                <p id="num">36</p>
+                            </div>
+                        </td>           
+                </tr>
+                <tr>
+                        <td>
+                                <div style="background-color: palevioletred">
+                                    <p id="weight">85.468</p>
+                                    <p id="atom">Rb</p>
+                                    <p id="num">37</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div style="background-color: palegoldenrod">
+                                    <p id="weight">87.62</p>
+                                    <p id="atom">Sr</p>
+                                    <p id="num">38</p>
+                                </div>
+                            </td>  
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">88.906</p>
+                                        <p id="atom">Y</p>
+                                        <p id="num">39</p>
+                                    </div>
+                            </td>  
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">91.224</p>
+                                        <p id="atom">Zr</p>
+                                        <p id="num">40</p>
+                                    </div>
+                            </td>   
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">92.908</p>
+                                        <p id="atom">Nb</p>
+                                        <p id="num">41</p>
+                                    </div>
+                            </td>   
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">95.95</p>
+                                        <p id="atom">Mo</p>
+                                        <p id="num">42</p>
+                                    </div>
+                            </td>   
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">98.207</p>
+                                        <p id="atom">Tc</p>
+                                        <p id="num">43</p>
+                                    </div>
+                            </td>   
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">101.07</p>
+                                        <p id="atom">Ru</p>
+                                        <p id="num">44</p>
+                                    </div>
+                            </td>
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">102.906</p>
+                                        <p id="atom">Rh</p>
+                                        <p id="num">45</p>
+                                    </div>
+                            </td> 
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">106.42</p>
+                                        <p id="atom">Pd</p>
+                                        <p id="num">46</p>
+                                    </div>
+                            </td> 
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">107.868</p>
+                                        <p id="atom">Ag</p>
+                                        <p id="num">47</p>
+                                    </div>
+                            </td> 
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">112.414</p>
+                                        <p id="atom">Cd</p>
+                                        <p id="num">48</p>
+                                    </div>
+                            </td>
+                            <td>
+                                    <div style="background-color: grey">
+                                        <p id="weight">114.818</p>
+                                        <p id="atom">In</p>
+                                        <p id="num">49</p>
+                                    </div>
+                            </td>
+                        <td>
+                            <div style="background-color: grey">
+                                    <p id="weight">118.711</p>
+                                    <p id="atom">Sn</p>
+                                    <p id="num">50</p>
+                                </div>
+                        </td>
+                        <td>
+                                <div style="background-color: green">
+                                    <p id="weight">121.760</p>
+                                    <p id="atom">Sb</p>
+                                    <p id="num">51</p>
+                                </div>
+                        </td>
+                        <td>
+                                <div style="background-color: green">
+                                    <p id="weight">127.6</p>
+                                    <p id="atom">Te</p>
+                                    <p id="num">52</p>
+                                </div>
+                        </td>
+                        <td>
+                                <div style="background-color: red">
+                                    <p id="weight">126.904</p>
+                                    <p id="atom">I</p>
+                                    <p id="num">53</p>
+                                </div>
+                            </td> 
+                            <td>
+                                <div style="background-color: rgb(6, 82, 129)">
+                                    <p id="weight">131.294</p>
+                                    <p id="atom">Xe</p>
+                                    <p id="num">54</p>
+                                </div>
+                            </td> 
+                             
+                </tr>
+                <tr>
+                        <td>
+                                <div style="background-color: palevioletred">
+                                    <p id="weight">132.905</p>
+                                    <p id="atom">Cs</p>
+                                    <p id="num">55</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div style="background-color: palegoldenrod">
+                                    <p id="weight">137.328</p>
+                                    <p id="atom">Ba</p>
+                                    <p id="num">56</p>
+                                </div>
+                            </td>
+                            <td>
+                                    <div style="background-color: rgb(30, 78, 74)">
+                                        
+                                        <p id="lanthanide">Lantha-</p>
+                                        <p id ="lanthanide">nide</p>
+                                        <p id="num">57-71</p>
+                                    </div>
+                                </td>
+                                <td>
+                                        <div style="background-color: fuchsia">
+                                            <p id="weight">178.49</p>
+                                            <p id="atom">Hf</p>
+                                            <p id="num">72</p>
+                                        </div>
+                                </td>   
+                                <td>
+                                        <div style="background-color: fuchsia">
+                                            <p id="weight">180.948</p>
+                                            <p id="atom">Ta</p>
+                                            <p id="num">73</p>
+                                        </div>
+                                </td>   
+                                <td>
+                                        <div style="background-color: fuchsia">
+                                            <p id="weight">183.84</p>
+                                            <p id="atom">W</p>
+                                            <p id="num">74</p>
+                                        </div>
+                                </td>   
+                                <td>
+                                        <div style="background-color: fuchsia">
+                                            <p id="weight">186.207</p>
+                                            <p id="atom">Re</p>
+                                            <p id="num">75</p>
+                                        </div>
+                                </td>   
+                                <td>
+                                        <div style="background-color: fuchsia">
+                                            <p id="weight">190.23</p>
+                                            <p id="atom">Os</p>
+                                            <p id="num">76</p>
+                                        </div>
+                                </td>
+                                <td>
+                                        <div style="background-color: fuchsia">
+                                            <p id="weight">192.217</p>
+                                            <p id="atom">Ir</p>
+                                            <p id="num">77</p>
+                                            
+                                        </div>
+                                </td> 
+                                <td>
+                                        <div style="background-color: fuchsia">
+                                            <p id="weight">195.085</p>
+                                            <p id="atom">Pt</p>
+                                            <p id="num">78</p>
+                                        </div>
+                                </td> 
+                                <td>
+                                        <div style="background-color: fuchsia">
+                                            <p id="weight">196.967</p>
+                                            <p id="atom">Au</p>
+                                            <p id="num">79</p>
+                                        </div>
+                                </td> 
+                                <td>
+                                        <div style="background-color: fuchsia">
+                                            <p id="weight">200.592</p>
+                                            <p id="atom">Hg</p>
+                                            <p id="num">80</p>
+                                        </div>
+                                </td>
+                                <td>
+                                        <div style="background-color: grey">
+                                            <p id="weight">204.383</p>
+                                            <p id="atom">Tl</p>
+                                            <p id="num">81</p>
+                                        </div>
+                                </td>
+                            <td>
+                                <div style="background-color: grey">
+                                        <p id="weight">207.2</p>
+                                        <p id="atom">Pb</p>
+                                        <p id="num">82</p>
+                                    </div>
+                            </td>
+                            <td>
+                                    <div style="background-color: grey">
+                                             <p id="weight">208.980</p>
+                                            <p id="atom">Bi</p>
+                                           <p id="num">83</p>
+                                        </div>
+                            </td>
+                            <td>
+                                    <div style="background-color: green">
+                                            <p id="weight">208.980</p>
+                                            <p id="atom">Po</p>
+                                            <p id="num">84</p>
+                                        </div>
+                            </td>
+                            <td>
+                                    <div style="background-color: red">
+                                        <p id="weight">209.987</p>
+                                        <p id="atom">At</p>
+                                        <p id="num">85</p>
+                                    </div>
+                                </td> 
+                                <td>
+                                    <div style="background-color: rgb(6, 82, 129)">
+                                        <p id="weight">222.018</p>
+                                        <p id="atom">Rn</p>
+                                        <p id="num">86</p>
+                                    </div>
+                                </td>
+                </tr>
+                <tr>
+                        <td>
+                                <div style="background-color: palevioletred">
+                                    <p id="weight">22.020</p>
+                                    <p id="atom">Fr</p>
+                                    <p id="num">87</p>
+                                </div>
+                        </td>
+                        <td>
+                            <div style="background-color: palegoldenrod">
+                                <p id="weight">226.025</p>
+                                <p id="atom">Ra</p>
+                                <p id="num">88</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div style="background-color: rgb(124, 138, 43)">
+                                <p id="actinide">nide</p>
+                                <p id="actinide">Acti-</p>
+                                <p id="num">89-103</p>
+                            </div>
+                        </td>
+                        <td>
+                                <div style="background-color: fuchsia">
+                                        <p id="weight">[261]</p>
+                                        <p id="atom">Rf</p>
+                                        <p id="num">104</p>
+                                    </div>
+                            </td>
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">[262]</p>
+                                        <p id="atom">Db</p>
+                                        <p id="num">105</p>
+                                    </div>
+                            </td>   
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">[266]</p>
+                                        <p id="atom">Sg</p>
+                                        <p id="num">106</p>
+                                    </div>
+                            </td>   
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">[264]</p>
+                                        <p id="atom">Bh</p>
+                                        <p id="num">107</p>
+                                    </div>
+                            </td>   
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">[269]</p>
+                                        <p id="atom">Hs</p>
+                                        <p id="num">108</p>
+                                    </div>
+                            </td>   
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">[278]</p>
+                                        <p id="atom">Mt</p>
+                                        <p id="num">109</p>
+                                    </div>
+                            </td>
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">[281]</p>
+                                        <p id="atom">Ds</p>
+                                        <p id="num">110</p>
+                                    </div>
+                            </td> 
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">[280]</p>
+                                        <p id="atom">Rg</p>
+                                        <p id="num">111</p>
+                                    </div>
+                            </td>  
+                            <td>
+                                    <div style="background-color: fuchsia">
+                                        <p id="weight">[285]</p>
+                                        <p id="atom">Cn</p>
+                                        <p id="num">112</p>
+                                    </div>
+                            </td>
+                            <td>
+                                    <div style="background-color: grey">
+                                        <p id="weight">[286]</p>
+                                        <p id="atom">Nh</p>
+                                        <p id="num">113</p>
+                                    </div>
+                            </td>
+                        <td>
+                            <div style="background-color: grey">
+                                    <p id="weight">[289]</p>
+                                    <p id="atom">Fl</p>
+                                    <p id="num">114</p>
+                                </div>
+                        </td>
+                        <td>
+                                <div style="background-color: grey">
+                                        <p id="weight">[286]</p>
+                                        <p id="atom">Mc</p>
+                                        <p id="num">115</p>
+                                    </div>
+                        </td>
+                        <td>
+                                <div style="background-color: grey">
+                                        <p id="weight">[293]</p>
+                                        <p id="atom">Lv</p>
+                                        <p id="num">116</p>
+                                    </div>
+                        </td>
+                        <td>
+                                <div style="background-color: red">
+                                    <p id="weight">[294]</p>
+                                    <p id="atom">Ts</p>
+                                    <p id="num">117</p>
+                                </div>
+                            </td> 
+                            <td>
+                                <div style="background-color: rgb(6, 82, 129)">
+                                    <p id="weight">[294]</p>
+                                    <p id="atom">Og</p>
+                                    <p id="num">118</p>
+                                </div>
+                            </td>
+                </tr>
+            </table>
+    </body>
+    </html>
