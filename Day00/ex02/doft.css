@@ -44,13 +44,11 @@ body{
 #bg{
     margin: auto;
     width: 80%;
-    border: 3px solid black; /*remove this*/
 }
 #cont{
     margin: auto;
     width: 65%;
     height: 100%;
-    border: 3px solid black; /*remove this*/
 }
 #right{
     background-color: #909090;
@@ -62,17 +60,19 @@ body{
 }
 #book{
     margin-top: 15px;
-    width: 60px;
+    width: 70px;
     margin-left: 30px;
 }
 #towel{
-    width: 60px;
+    width: 70px;
     margin-left: 30px;
 }
 #wall{
-    width: 60px;
-    margin-left: 30px;
-    margin-bottom: 145px;
+    background-image: url('resources/brick.jpg');
+    width: 85%;
+    margin: auto;
+    height: 70px;
+    margin-bottom: 129px;
 }
 #middle{
     background-color: #909090;
@@ -81,13 +81,14 @@ body{
     width: 68%;
     float: left;
     margin-left: 35px;
+    height: 550px;
 }
 #center{
-    width: 98%;
+    width: 819px;
+    height: 533px;
     margin: auto;
     margin-left: 1%;
     margin-top: 1%;
-    margin-bottom: 1%;
 }
 #day{
     width: 40%;
@@ -111,4 +112,34 @@ body{
     height: 20px;
     margin-right: -17px;
     margin-top: 124px;
+}
+#form{
+    position: absolute;
+    z-index: 1;
+    background-color: #88ff89;
+    width: 22%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px black;
+    margin-top: 490px;
+}
+form{
+    margin-left: 2%;
+}
+p{
+    margin: 0;
+    margin-left: 2%;
+}
+#butten{
+    border-style: none;
+    height: 15%;
+    width: 20%;
+    background-color: #d6d6d6;
+    border: 1px solid #a8a4a5;
+    font-size: 0.7vw;
+}
+#field{
+    width: 75%;
+    height: 15%;
+    border: 2px solid #eeeeee;
+    margin-bottom: 40px;
 }

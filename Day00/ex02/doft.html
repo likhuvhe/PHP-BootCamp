@@ -15,19 +15,34 @@
     <br>
             <div id="cont">
                    <div id="left">
-                       <img src="resources/arrow.png" alt="Advance" id="advance"><p></p>
-                       <img src="resources/main.png" alt="Take" id="take"><br><p></p>
-                       <img src="resources/oeil.png" alt="Look" id="look"><br><p></p>
-                       <img src="resources/outil.png" alt="Use" id="use"><br><p></p>
+                       <img src="resources/arrow.png" alt="Advance" id="advance"><br><br>
+                       <img src="resources/main.png" alt="Take" id="take"><br><br>
+                       <img src="resources/oeil.png" alt="Look" id="look"><br><br>
+                       <img src="resources/outil.png" alt="Use" id="use"><br> <br>
                        <img src="resources/chat-icon.png" alt="Speak" id="speak"><br>
                    </div>
                    <div id="middle">
-                       <img src="resources/cluster.jpg" alt="center" id="center">
+                       <!-- <img src="resources/cluster.jpg" alt="center" id="center"> -->
+                       <img src="resources/cluster.jpg" usemap="#image-map" id="center">
+
+                       <map name="image-map">
+                           <area target="_self" alt="chair" title="chair" href="https://www.ikea.com" coords="265,305,380,519" shape="rect" >
+                           <area target="_self" alt="screen" title="screen" href="https://www.apple.com" coords="520,280,620,355" shape="rect">
+                       </map>
                    </div>
                    <div id="right">
-                       <img src="resources/book.png" alt="book" id="book"><p></p>
-                       <img src="resources/towel.png" alt="towel" id="towel"><p></p>
-                       <img src="resources/brick.jpg" alt="wall" id="wall"><p></p>
+                       <img src="resources/book.png" alt="book" id="book"><br><br>
+                       <img src="resources/towel.png" alt="towel" id="towel"><br><br>
+                       <div id="wall"></div>
+                   </div>
+                   <div id="form">
+                        <p>Vous <b style="font-size: xx-large">entrez</b>  alors dans une grande piece remplie <br></p> 
+                       <p style="text-shadow: 8px 5px 4px red">d'ordinateurs... </p>
+                        <p style="font-style: italic">- Bonjour, vous êtes nouveau ici?</p>
+                       <form>
+                           <input type="text" id="field">
+                           <input type="submit" value="Repondre" id="butten">
+                       </form>
                    </div>
              </div>
     </body>
