@@ -17,7 +17,6 @@ $results = array();
 while ($argv[$i])
 {
     $results =  array_merge($results, ft_split($argv[$i]));
-   
     $i++;    
 }
 sort($results);
